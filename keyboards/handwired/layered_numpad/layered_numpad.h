@@ -1,4 +1,4 @@
-/* Copyright 2021 Gerry Sihaj
+/* Copyright 2021 Moritz Plattner
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,16 +18,16 @@
 
 #include "quantum.h"
 
-#define LAYOUT( \
-    k00, k01, k02, k03, \
-    k10, k11, k12,      \
-    k20, k21, k22, k13, \
-    k30, k31, k32,      \
-       k40,   k41, k42  \
-) { \
-    { k00, k01, k02, k03 }, \
-    { k10, k11, k12, k13 }, \
-    { k20, k21, k22, KC_NO }, \
-    { k30, k31, k32, KC_NO }, \
-    { k40, k41, k42, KC_NO } \
-}
+#define LAYOUT_numpad_5x4( \
+    K00, K01, K02, K03,    \
+    K10, K11, K12,         \
+    K20, K21, K22, K13,    \
+    K30, K31, K32,         \ 
+       K40,   K41, K42     \
+) {\
+    {K00, K01, K02, K03},   \
+    {K10, K11, K12, K13},   \
+    {K20, K21, K22, KC_NO}, \
+    {K30, K31, K32, KC_NO}, \
+    {K40, K41, K42, KC_NO}, \
+ }                          
