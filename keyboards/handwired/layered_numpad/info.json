@@ -1,9 +1,9 @@
 {
   "keyboard_name": "layered_numpad handwired",
   "url": "",
-  "maintainer": "qmk",
+  "maintainer": "Gerry Sihaj",
   "layouts": {
-    "LAYOUT": {
+    "LAYOUT_numpad_4x5": {
       "layout": [
         {"label":"K00", "x":0, "y":0},
         {"label":"K01", "x":1, "y":0},
